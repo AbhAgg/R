@@ -3,7 +3,7 @@ import subprocess as cmd
 cp = cmd.run("git add .", check=True, shell=True)
 date = input("Date\n")
 #month = input("Month\n")
-cp = cmd.run(f"git commit --amend --no-edit --date=\"Jun {date} 20:00:00 2020 -0600\" -m \"add file\" ", check=True, shell=True)
+cp = cmd.run(f"git commit --amend --no-edit --date=\"Jul {date} 20:00:00 2020 -0600\" -m \"add file\" ", check=True, shell=True)
 cp = cmd.run("git pull", check=True, shell=True)
 cp = cmd.run("git push", check=True, shell=True)
 pawse = input("Done!")
